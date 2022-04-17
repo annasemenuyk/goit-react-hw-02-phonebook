@@ -57,10 +57,10 @@ class App extends Component {
 
     return (
       <Container>
-        <h1 className={styles.Title}>Phonebook</h1>
+        <h1 className="Title">Phonebook</h1>
         <ContactForm onSubmit={this.addContact} />
 
-        <h2 className={styles.Title}>Contacts</h2>
+        <h2 className="Title">Contacts</h2>
         <ContactFilter value={filter} onFindContact={this.findContact} />
         <ContactList
           onFilteredContacts={FilterContacts}
